@@ -14,4 +14,6 @@ var path = require("path");
     res.sendFile(path.join(__dirname, "../views/contact.html"));
   });
 
+  router.use('/shopScript', express.static(path.join(__dirname, "../config/shop.js")));
+
 module.exports = router;
