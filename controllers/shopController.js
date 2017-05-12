@@ -15,5 +15,6 @@ var path = require("path");
   });
 
   router.use('/shopScript', express.static(path.join(__dirname, "../config/shop.js")));
+  router.use('/images', express.static(path.join(__dirname, "../public/images")));
 
 module.exports = router;
