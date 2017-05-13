@@ -14,7 +14,14 @@ var path = require("path");
     res.sendFile(path.join(__dirname, "../views/contact.html"));
   });
 
+  router.post('/contact', function(req, res) {
+    console.log(req);
+    res.redirect('/contact');
+  });
+
   router.use('/shopScript', express.static(path.join(__dirname, "../config/shop.js")));
   router.use('/images', express.static(path.join(__dirname, "../public/images")));
+  router.use('/css', express.static(path.join(__dirname, "../public/css")));
+  router.use('/js', express.static(path.join(__dirname, "../public/js")));
 
 module.exports = router;
