@@ -111,3 +111,10 @@ legend {
     background-color: #2A9FD6;
     border-color: #2A9FD6;
 }
+
+.btn-warning:hover {
+
+    background-color: #E7182E;
+    border-color: #E7182E;
+
+}
