@@ -5,6 +5,35 @@
     border-style: solid;
 }
 
+.picTitles {
+
+    position: absolute;
+    top: 90px;
+    left: 65px;
+    color: #E7182E;
+    font-weight: bold;
+}
+
+.picTitlesBottom1 {
+    
+    position: absolute;
+    top: 120px;
+    left: 90px;
+    color: #E7182E;
+    font-weight: bold;
+
+}
+
+.picTitlesBottom2 {
+    
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    color: #E7182E;
+    font-weight: bold;
+
+}
+
 .bottomPic {
 
 	margin-top: 30px;
