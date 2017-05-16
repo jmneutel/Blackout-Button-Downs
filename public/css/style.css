@@ -96,7 +96,7 @@ h3 {
 .clickable {
 
 	display: inline-block;
-    background: black;
+    background: #060606;
     padding: 0;
 }
 
@@ -118,7 +118,7 @@ h3 {
 .socialMedia {
 
 	text-align: center;
-    background-color: black;
+    background-color: #060606;
     padding-top: 50px;
     padding-bottom: 50px;
 }
