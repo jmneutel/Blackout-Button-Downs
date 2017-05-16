@@ -90,6 +90,8 @@
           }
         }
       });
-    });
+    }).then(function() {
+        $(".shopify-buy-frame--toggle.is-sticky").css("top", "5%");
+      });
   }
 })();
