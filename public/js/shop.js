@@ -66,6 +66,7 @@
     "styles": {
       "button": {
         "background-color": "#2a9fd6",
+        "top": "0px;",
         ":hover": {
           "background-color": "#268fc1"
         },
