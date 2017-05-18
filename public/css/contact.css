@@ -118,3 +118,196 @@ legend {
     border-color: #E7182E;
 
 }
+
+@media handheld,
+screen and (max-width: 640px) {
+
+    .banners {
+
+        border-width: 1px;
+
+    }
+    
+    .picTitles {
+        
+        font-size: 7pt;
+        top: 5px;
+        left: 22px;
+
+    }
+    .picTitlesBottom1 {
+
+        font-size: 7pt;
+        top: 32px;
+        left: 27px;
+
+    }
+    .picTitlesBottom2 {
+
+        font-size: 7pt;
+        top: 32px;
+        left: 30px;
+
+    }
+
+    .missionStatement {
+
+        border-width: 1px;
+    }
+    
+}
+
+
+/* Tablet Screen Size Begin */
+
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+
+    .banners {
+
+        border-width: 5px;
+
+    }
+    
+    .picTitles {
+        
+        font-size: 15pt;
+        top: 30px;
+        left: 28px;
+
+    }
+    .picTitlesBottom1 {
+
+        font-size: 15pt;
+        top: 55px;
+        left: 38px;
+
+    }
+    .picTitlesBottom2 {
+
+        font-size: 15pt;
+        top: 57px;
+        left: 42px;
+
+    }
+
+    .missionStatement {
+
+        border-width: 5px;
+    }
+    
+}
+
+
+/* Tablet Screen Size End */
+
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+
+    .banners {
+
+        border-width: 5px;
+
+    }
+    
+    .picTitles {
+        
+        font-size: 22pt;
+        top: 35px;
+        left: 30px;
+
+    }
+    .picTitlesBottom1 {
+
+        font-size: 22pt;
+        top: 65px;
+        left: 40px;
+
+    }
+    .picTitlesBottom2 {
+
+        font-size: 22pt;
+        top: 67px;
+        left: 50px;
+
+    }
+
+    .missionStatement {
+
+        border-width: 5px;
+    }
+}
+
+@media handheld,
+screen and (min-width: 980px) and (max-width: 1280px) {
+
+    .banners {
+
+        border-width: 8px;
+
+    }
+    
+    .picTitles {
+        
+        font-size: 25pt;
+        top: 50px;
+        left: 42px;
+
+    }
+    .picTitlesBottom1 {
+
+        font-size: 25pt;
+        top: 80px;
+        left: 57px;
+
+    }
+    .picTitlesBottom2 {
+
+        font-size: 25pt;
+        top: 82px;
+        left: 67px;
+
+    }
+
+    .missionStatement {
+
+        border-width: 8px;
+    }
+}
+
+@media handheld,
+screen and (min-width: 1280px) and (max-width: 1375px) {
+
+    .banners {
+
+        border-width: 10px;
+
+    }
+    
+    .picTitles {
+        
+        font-size: 30pt;
+        top: 90px;
+        left: 55px;
+
+    }
+    .picTitlesBottom1 {
+
+        font-size: 30pt;
+        top: 110px;
+        left: 75px;
+
+    }
+    .picTitlesBottom2 {
+
+        font-size: 30pt;
+        top: 112px;
+        left: 90px;
+
+    }
+
+    .missionStatement {
+
+        border-width: 10px;
+    }
+    
+}
